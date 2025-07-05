@@ -1,20 +1,16 @@
-# Trabajo Práctico Nº2 'Software-Defined Networks'
+# Software-Defined Networks
 
-## Materia: REDES (TA048)
+## Introduction
 
-## Grupo 1
+This project simulates a software-defined network (SDN) firewall using the POX controller. It was developed as a university group assignment by a team of five students, including myself.
 
-### Integrantes:
+The objective was to design and implement a configurable firewall capable of filtering traffic between network nodes. The network topology consists of four hosts connected through a variable-length chain of switches. Filtering rules are defined in a JSON file and dynamically enforced by the POX controller, providing flexible traffic control across the network.
 
-| Alumno                  | Correo               | Padrón  |
-|-------------------------|----------------------|---------|
-| Ascencio Felipe Santino | fascencio@fi.uba.ar  | 110675  |
-| Burgos Moreno Daniel    | dburgos@fi.uba.ar    | 110486  |
-| García Pizales Ignacio  | igarciap@fi.uba.ar   | 105043  |
-| Levi Dolores            | dolevi@fi.uba.ar     | 105993  |
-| Orive María Sol         | morive@fi.uba.ar     | 91351   |
+The project repository includes a complete and self-documented codebase. Each function, key variable declaration, and critical implementation detail is thoroughly commented to clarify the purpose and logic of each component in the system.
 
----
+A clarification: The project was developed for university purposes, and all analysis, code, and documentation are written in Spanish.
+
+With this context in mind, let's move on to the explanation of the system's design and implementation approach.
 
 ## Herramientas utilizadas
 
