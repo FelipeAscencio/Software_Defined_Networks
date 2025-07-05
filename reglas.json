@@ -1,0 +1,28 @@
+[
+    {
+        "switches": [2],
+        "tipo_protocolo_transporte": "tcp",
+        "puerto_destino": 80
+    },
+    {
+        "switches": [2],
+        "tipo_protocolo_transporte": "udp",
+        "puerto_destino": 80
+    },
+    {
+        "switches": [2],
+        "tipo_protocolo_transporte": "udp",
+        "puerto_destino": 5001,
+        "mac_origen": "00:00:00:00:00:01"
+    },
+    {
+        "switches": [2],
+        "mac_origen": "00:00:00:00:00:01",
+        "mac_destino": "00:00:00:00:00:04"
+    },
+    {
+        "switches": [2],
+        "mac_origen": "00:00:00:00:00:04",
+        "mac_destino": "00:00:00:00:00:01"
+    }
+]
